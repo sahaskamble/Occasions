@@ -1,0 +1,34 @@
+.carousel.carousel-slider {
+    border-radius: 1.5rem !important;
+    overflow: hidden !important;
+}
+
+.carousel .slide {
+    border-radius: 1.5rem !important;
+    overflow: hidden !important;
+}
+
+/* Target the wrapper div */
+.carousel-root {
+    border-radius: 1.5rem !important;
+    overflow: hidden !important;
+}
+
+/* Target individual slide content */
+.carousel .slide > div {
+    border-radius: 1.5rem !important;
+    overflow: hidden !important;
+}
+
+/* Target the control dots container */
+.carousel .control-dots {
+    border-bottom-left-radius: 1.5rem !important;
+    border-bottom-right-radius: 1.5rem !important;
+}
+
+/* Ensure videos and images maintain the rounded corners */
+.carousel .slide video,
+.carousel .slide img {
+    border-radius: 1.5rem !important;
+    overflow: hidden !important;
+}
